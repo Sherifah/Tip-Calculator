@@ -39,7 +39,7 @@ function Forms({
         <div className="input-icon w-[100%]">
           <img
             className="absolute px-3 py-[14px] text-center "
-            src="images/icon-dollar.svg"
+            src="Images/icon-dollar.svg"
             alt="form-icon"
           ></img>
           <input
@@ -69,7 +69,7 @@ function Forms({
         <div className="input-icon w-[100%]">
           <img
             className="absolute px-3 py-[14px] text-center "
-            src="images/icon-person.svg"
+            src="Images/icon-person.svg"
             alt="form-icon"
           ></img>
           <input
@@ -90,7 +90,7 @@ function Forms({
         >
           Select Tip %
         </label>
-        <div className="input-icon w-[100%] grid grid-cols-3 grid-rows-2 gap-3">
+        <div className="input-icon w-[100%] grid grid-cols-2 md:grid-cols-3 md:grid-rows-2 gap-4 md:gap-3">
           {tipList}
           <CustomTip
             bill={bill}

@@ -2,7 +2,7 @@ import React from "react";
 
 function Result({ tip, totalBill, completed, onReset }) {
   return (
-    <div className="bg-dark px-8 pt-10 pb-8 rounded-lg w-full">
+    <div className="bg-dark px-8 pt-10 pb-8 rounded-lg w-[95%]">
       <div className="flex flex-col gap-10">
         <div className="each-tip flex justify-between items-center">
           <p className="flex flex-col items-start">
