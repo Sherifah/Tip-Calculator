@@ -1,6 +1,8 @@
 import React from "react";
 import Percentage from "./Percentage";
 import CustomTip from "./CustomTip";
+import dollarUrl from "../images/icon-dollar.svg"
+import personUrl from "../images/icon-person.svg"
 
 function Forms({
   tips,
@@ -39,7 +41,7 @@ function Forms({
         <div className="input-icon w-[100%]">
           <img
             className="absolute px-3 py-[14px] text-center "
-            src="Images/icon-dollar.svg"
+            src={dollarUrl}
             alt="form-icon"
           ></img>
           <input
@@ -69,7 +71,7 @@ function Forms({
         <div className="input-icon w-[100%]">
           <img
             className="absolute px-3 py-[14px] text-center "
-            src="Images/icon-person.svg"
+            src={personUrl}
             alt="form-icon"
           ></img>
           <input
