@@ -23,7 +23,7 @@ function Result({ tip, totalBill, completed, onReset }) {
           </h2>
         </div>
       </div>
-      <div className="reset-button pt-24">
+      <div className="reset-button pt-8 md:pt-24">
         <button
           className={`w-[100%] text-center uppercase py-2 bg-btn text-secondary-100 hover:opacity-100 rounded ${
             completed ? "opacity-100" : "opacity-20"
